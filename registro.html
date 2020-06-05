@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/estilos.css" />
+    <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200i" rel="stylesheet">
+
+    <title>Yamaha acerca de</title>
+</head>
+
+<body>
+    <header>
+        <div class="contenedor">
+            <nav class="menu">
+                <a href="index.html">Inicio</a>
+                <a href="acercade.html">Acerca de</a>
+                <a href="menu.html">Menu</a>
+                <a href="galeria.html">Galeria</a>
+                <a href="ubicacion.html">Ubicacion</a>
+                <a href="registro.html">Registrate</a>
+            </nav>
+        </div>
+
+        <div class="main">
+            <section class="menu" style="padding-top:0px;">
+                <div class="contenedor">
+                    <h3 class="titulo" id="platillos">Registrate</h3>
+                    <div class="contenedor-menu">
+                        <div class="contenedor-menu2">
+                            <article>
+                                <form class="formulario" action="registrarusuario.php" method="post"
+                                    onsubmit="return validar(this);">
+                                    <p class="categoria">Datos:</p>
+                                    <div class="especifiacion">
+                                        <p class="nombre">Correo</p>
+                                        <input class="precio" type="text" name="mail" value="" />
+                                    </div>
+
+                                    <div class="especifiacion">
+                                        <p class="nombre">Contraeña</p>
+                                        <input class="precio" type="password" name="password" maxlength="8" value="" />
+                                    </div>
+
+                                    <div class="especifiacion">
+                                        <p class="nombre">Repetir Contraeña</p>
+                                        <input class="precio" type="password" name="password2" maxlength="8" value="" />
+
+                                    </div>
+
+                                    <p><input class="btn" id="btn" type="submit" value="Enviar datos" name="enviar" />
+                                        <input class="btn" id="btn" type="reset" value="Restablecer" name="B2" /></p>
+                                    </from>
+                            </article>
+
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        </div>
+    </header>
+
+
+    <footer>
+        <div class="copyright">
+            <a href="https://www.facebook.com/YamahaMotorEU/">Facebook</a><br>
+            <a href="https://twitter.com/yamahacolombia">Twitter</a>
+        </div>
+    </footer>
+
+    <script src="js/formulario.js"></script>
+
+</body>
